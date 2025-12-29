@@ -54,6 +54,32 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
               {translations[lang].home.cta.whatsapp}
             </Button>
           </div>
+
+          {/* Email Contact */}
+          <div className="mt-6 flex items-center justify-center gap-2 text-gray-700">
+            <svg
+              className="h-5 w-5 text-gold"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <span className="text-sm font-medium">
+              {lang === 'zh-HK' ? '聯絡郵箱：' : 'Email: '}
+            </span>
+            <a
+              href="mailto:singchentrade@163.com"
+              className="text-sm font-semibold text-gold hover:text-gold-dark transition-colors duration-200"
+            >
+              singchentrade@163.com
+            </a>
+          </div>
         </div>
       </div>
     </section>

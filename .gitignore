@@ -32,3 +32,17 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# OSS deployment scripts with sensitive info
+upload-to-oss.js
+fix-content-type.js
+fix-oss-complete.js
+get-website-url.js
+list-oss-files.js
+verify-oss-config.js
+create-bucket-and-upload.js
+check-oss-website.js
+fix-bucket-permission.js
+setup-oss-config.js
+deploy-oss.bat
+OSS配置说明.txt
+

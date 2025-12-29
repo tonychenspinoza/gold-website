@@ -7,7 +7,7 @@ export const companyInfo: CompanyInfo = {
     en: 'Room 1D, 2/F, Fu Tao Building, 98 Argyle Street, Mongkok, Kowloon, Hong Kong',
   },
   phone: '[待填]',
-  email: '[待填]',
+  email: 'singchentrade@163.com',
   whatsapp: '[待填]',
 }
 
