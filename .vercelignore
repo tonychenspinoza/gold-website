@@ -3,27 +3,6 @@ node_modules
 .git
 *.log
 .DS_Store
-Truffle
-backend
-src/components/CureToken.jsx
-src/components/Diagnostic.jsx
-src/components/ReceivableDealsTable.jsx
-src/components/Sidebar
-src/contexts
-src/contracts
-src/pages
-start-*.ps1
-webhook-server.js
 *.zip
-FRONTEND_BACKEND_INTEGRATION.md
-IMPLEMENTATION_SUMMARY.md
-MORALIS_SETUP.md
-PRODUCT_LOGIC.md
-PROJECT_PLAN.md
-PROJECT_STATUS.md
-QUICK_START.md
-README_WEBHOOK.md
-TESTING_GUIDE.md
-TROUBLESHOOTING.md
 yarn.lock
 
